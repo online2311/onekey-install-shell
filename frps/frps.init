@@ -26,8 +26,12 @@ RET_VAL=0
 
 [ -x ${BIN} ] || exit 0
 strLog=""
-fun_clangcn()
 {
+    echo ""     
+    echo "+--------------------------------------------------+" 
+    echo "              Manager for ${ProgramName}      "       
+    echo "+--------------------------------------------------+" 
+    echo ""     
 }
 
 fun_check_run(){
