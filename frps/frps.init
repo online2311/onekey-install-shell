@@ -3,12 +3,6 @@
 # Description: Startup script for frps on Debian. Place in /etc/init.d and
 # run 'update-rc.d -f frps defaults', or use the appropriate command on your
 # distro. For CentOS/Redhat run: 'chkconfig --add frps'
-#=======================================================
-#   System Required:  CentOS/Debian/Ubuntu (32bit/64bit)
-#   Description:  Manager for frps, Written by Clang
-#   Author: Clang
-#   Intro:  http://koolshare.cn/thread-65379-1-1.html
-#=======================================================
 ### BEGIN INIT INFO
 # Provides:          frps
 # Required-Start:    $all
@@ -34,13 +28,6 @@ RET_VAL=0
 strLog=""
 fun_clangcn()
 {
-    echo ""
-    echo "+--------------------------------------------------+"
-    echo "|        Manager for ${ProgramName}, Written by Clang        |"
-    echo "+--------------------------------------------------+"
-    echo "| Intro: http://koolshare.cn/thread-65379-1-1.html |"
-    echo "+--------------------------------------------------+"
-    echo ""
 }
 
 fun_check_run(){
