@@ -4,8 +4,6 @@ export PATH
 #===============================================================================================
 #   System Required:  CentOS Debian or Ubuntu (32bit/64bit)
 #   Description:  A tool to auto-compile & install frps on Linux
-#   Author: Clang
-#   Intro:  http://koolshare.cn/forum-72-1.html
 #===============================================================================================
 program_name="frps"
 version="1.8.5"
@@ -50,8 +48,6 @@ fun_clangcn(){
     echo "|        frps for Linux Server, Written by Clang          |"
     echo "+---------------------------------------------------------+"
     echo "|     A tool to auto-compile & install frps on Linux      |"
-    echo "+---------------------------------------------------------+"
-    echo "|    Intro: http://koolshare.cn/thread-65379-1-1.html     |"
     echo "+---------------------------------------------------------+"
     echo ""
 }
