@@ -26,6 +26,7 @@ RET_VAL=0
 
 [ -x ${BIN} ] || exit 0
 strLog=""
+fddun_clangcn()
 {
     echo ""     
     echo "+--------------------------------------------------+" 
