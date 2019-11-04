@@ -17,7 +17,7 @@ Server
 ### Install
 
 ```Bash
-wget --no-check-certificate https://raw.githubusercontent.com/online2311/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh
+wget --no-check-certificate https://cdn.jsdelivr.net/gh/online2311/onekey-install-shell/frps/install-frps.sh -O ./install-frps.sh
 chmod 700 ./install-frps.sh
 ./install-frps.sh install
 ```
